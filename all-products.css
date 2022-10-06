@@ -50,4 +50,13 @@ time, mark, audio, video {
     padding: 10px;
 }
 
+#SEARCH{
+    background: gold;
+    border-radius: 10px;
+    border:solid 1px black;
+    padding: 8px;
+    box-shadow: 2px 2px 2px;
+    cursor: pointer;
+}
+
 
