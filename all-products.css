@@ -39,5 +39,15 @@ time, mark, audio, video {
 .header_logo #logo{
     width: 100%;
 }
+#form{
+    margin-left: 50px;
+    float:left;
+    width:45%;
+    margin-top: 10px;
+}
+#form input[type=text]{
+    width: 80%;
+    padding: 10px;
+}
 
 
