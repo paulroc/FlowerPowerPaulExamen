@@ -18,4 +18,14 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
+.ma PLAATJESin_wrapper{
+    width:1000px;
+    background:#dfdfdf;
+    margin: auto;
+    height: auto;
+    vertical-align: center;
+    min-height: 100vh;
+}
+
+
 
