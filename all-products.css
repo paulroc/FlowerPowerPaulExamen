@@ -83,5 +83,47 @@ time, mark, audio, video {
     width: auto;
     z-index: 1;
 }
+.register_login{
+    float: left;
+    width: 150px;
+    margin: 10px 0px 0px 30px;
+}
+.register_login a{
+    text-decoration: none;
+}
+.login{
+    position: relative;
+    top:.3px;
+    float: left;
+    height: 35px;
+    right: 30px;
+    line-height: 35px;
+    padding: 0 10px 0 10px;
+    margin: 0;
+    color: grey;
+    cursor: pointer;
+    position: relative;
+    display:inline;
+    border: 0.1px solid rgba(183, 183, 183, 0.9);
+    border-radius: 1.5px;
+}
+.login a{color:grey}
+.register{
+    position: relative;
+    top:.3px;
+    float: left;
+    right: 15px;
+    height: 35px;
+    line-height: 35px;
+    padding: 0px 10px 0px 10px;
+    margin: 0px 0px 0px 7px;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    display: inline;
+    background: rgba(0, 114, 155, 0.9);
+    border: 0.1px;
+    border-radius: 2px;
+}
 
 
