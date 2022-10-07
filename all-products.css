@@ -58,5 +58,30 @@ time, mark, audio, video {
     box-shadow: 2px 2px 2px;
     cursor: pointer;
 }
+.cart{
+    float: left;
+    margin: 5px 10px 0px 15px;
+    cursor: pointer;
+    height: 35px;
+    padding-top: 0px;
+    position: relative;
+    top: 0px;
+    right: 20px;
+    width: 60px;
+    text-align: center;
+    z-index: 1000;
+}
+.cart img{
+    padding-top: 8px;
+    width: 30px;
+}
+.cart ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    width: auto;
+    z-index: 1;
+}
 
 
