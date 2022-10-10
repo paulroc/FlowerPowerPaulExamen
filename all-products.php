@@ -67,3 +67,51 @@ include("admin_area/includes/db.php");
                 <li><a href="index.php">Losse Bloemen</a></li>
                 <li><a href="index.php">Kamerplanten</a></li>
 
+                <?php
+                getCats();
+                ?>
+            </ul>
+        </div>
+
+        <section class="alle_producten_index">
+            <h2>Dit zijn alle planten die te koop zijn</h2>
+            <div class="index_category_list">
+                <div>
+                    <h3>Roos</h3>
+                </div>
+                <div>
+                    <h3>Hibiscus</h3>
+                </div>
+                <div>
+                    <h3>Zonnebloem</h3>
+                </div>
+                <div>
+                    <h3>Paardenbloem</h3>
+                </div>
+                <div>
+                    <h3>Tulpen</h3>
+                </div>
+                <div>
+                    <h3>Roos</h3>
+                </div>
+                <div>
+                    <h3>Roos</h3>
+                </div>
+            </div>
+        </section>
+
+    </div><!-- /.content_wrapper-->
+
+    <div id="footer">
+        <h2 style="text-align:center; padding-top: 30px">&copy; 2022 ROC van Flevoland - <?php echo date('Y'); ?> Door
+            Paul van Breda</h2>
+    </div>
+</div><!-- /.main wrapper-->
+<!-- Einde van de Main container begint hier --->
+</body>
+</html>
+
+<?php
+echo "Hallo Paul";
+
+?>
