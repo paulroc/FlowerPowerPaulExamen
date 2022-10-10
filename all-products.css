@@ -125,5 +125,37 @@ time, mark, audio, video {
     border: 0.1px;
     border-radius: 2px;
 }
+.menubar{
+    width: 1000px;
+    height: 50px;
+}
+.menubar a{
+    color: darkolivegreen;
+}
+#menu{
+    padding: 0px;
+    margin-left: 40px;
+    line-height: 40px;
+    float: left;
+}
+#menu li{
+    list-style: none;
+    display: inline;
+}
+#menu a{
+    text-decoration: none;
+    padding: 8px;
+    margin: 5px;
+    font-size: 18px;
+}
+#menu a:hover{
+    color: orange;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.content_wrapper{
+    width: 1000px;
+    margin: auto;
+}
 
 
