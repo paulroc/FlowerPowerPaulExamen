@@ -65,3 +65,23 @@ include("admin_area/includes/db.php");
                 <li><a href="index.php">Boeketten</a></li>
                 <li><a href="index.php">Losse Bloemen</a></li>
                 <li><a href="index.php">Kamerplanten</a></li>
+
+
+
+                <?php
+                getCats();
+                ?>
+            </ul>
+        </div>
+
+    </div><!-- /.content_wrapper-->
+
+    <div id="footer">
+        <h2 style="text-align:center; padding-top: 30px">&copy; 2022 ROC van Flevoland - <?php echo date('Y'); ?> Door
+            Paul van Breda</h2>
+    </div>
+</div><!-- /.main wrapper-->
+<!-- Einde van de Main container begint hier --->
+</body>
+</html>
+
