@@ -1,20 +1,20 @@
 <?php
-include("functions/functions.php");
-include("admin_area/includes/db.php");
-//echo $output;
+include ("admin_area/includes/db.php");
+include ("functions/functions.php");
 ?>
 
-<html xmlns="http://www.w3.org/1999/html">
 
+<!doctype html>
+<html lang="en">
 <head>
-    <title>Flower Power</title>
-
-    <link rel="stylesheet" href="styles/style.css" media="all"/>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login pagina</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
-
 <body>
-
-<!-- Main content begint hier -->
 <div class="main_wrapper">
 
     <div class="header_wrapper">
@@ -44,7 +44,7 @@ include("admin_area/includes/db.php");
 
         <div class="register_login">
             <div class="login"><a href="login.php">Login</a></div>
-            <div class="register"><a href="customer/register.php">Register</a></div>
+            <div class="register"><a href="customer_register.php">Register</a></div>
         </div>
 
         <div class="menubar">
@@ -66,34 +66,18 @@ include("admin_area/includes/db.php");
                 <li><a href="index.php">Boeketten</a></li>
                 <li><a href="index.php">Losse Bloemen</a></li>
                 <li><a href="index.php">Kamerplanten</a></li>
-
                 <?php
                 getCats();
                 ?>
             </ul>
         </div>
-        <p id="introductie_homepagina">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu eros vitae est lacinia fringilla a
-            sed nibh. Sed urna dolor, aliquam eu sapien sed, pretium aliquam urna. Vivamus lacinia vulputate
-            dapibus. Vivamus imperdiet ante ac quam euismod dictum. Phasellus sodales, dolor eget venenatis
-            faucibus, diam est rhoncus orci, nec gravida risus arcu quis sapien. Nam vulputate sit amet diam non
-            iaculis. Etiam suscipit elit risus, semper ultrices risus mollis et. Pellentesque sed risus non
-            dolor blandit pretium. Praesent eu quam accumsan, congue elit in, semper magna. Phasellus accumsan
-            odio in eros maximus, sed tincidunt metus pellentesque. Nulla facilisi.</p>
-        <div class="foto_intro">
-            <img src="images/bloemen_bruine_achtergrond.jpg" id="foto_homepagina"/>
-        </div>
-
-
-    </div><!-- /.content_wrapper-->
+    </div>
 
     <div id="footer">
         <h2 style="text-align:center; padding-top: 30px">&copy; 2022 ROC van Flevoland - <?php echo date('Y'); ?> Door
             Paul van Breda</h2>
     </div>
-</div><!-- /.main wrapper-->
-<!-- Einde van de Main container begint hier --->
-
+</div>
 </body>
-
 </html>
 
